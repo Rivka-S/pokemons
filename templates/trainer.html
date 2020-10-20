@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>welcome to {{name}}</h1>
+    <title>pokemon</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+</head>
+
+<body>
+    <h1>choose your action:</h1>
+
+    <form action="/trainer/get_pokemon/{{name}}" method="get">
+      <input padding=10px class="navbar" type="submit" value="get pokemon" />
+    </form>
+
+
+    <form action="/trainer/del_poke/{{name}}" method="get" >
+        <input  padding=10px class="navbar" type="submit" value="remove" />
+        <input class="aaa" type="text" name="poke_name" placeholder="Enter pokemon name" />
+    </form>
+
+    <form action="/trainer/add_poke/{{name}}" method="get" >
+        
+        <input padding=10px  class="navbar" type="submit" value="add pokemon" />
+        <input class="aaa" type="text" name="poke_name" placeholder="Enter pokemon name" />
+    </form>
+
+</body>
+
+</html>

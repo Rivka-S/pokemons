@@ -1,0 +1,40 @@
+/* Here we style the body element, that is the parent of all the elements in the page */
+h1 {
+ 
+     text-align: center; /* text will be placed in the middle */
+ }
+body {
+ background-color: rgb(236, 200, 201);
+    font-family: sans-serif; /* Font shape */color: rgb(151, 39, 151); /* Text color */font-size: 20pt; /* Text size */margin: 0;
+    text-align: left; /* text will be placed in the middle */
+  margin-left: 10px;
+}
+
+
+/* Styling all the elements that have class="navbar" */
+.navbar {
+    background-color: rgb(250, 179, 179);
+  /*  position: center;
+    bottom: 0;*/
+    font-size: 10pt;
+    size: 12pt;
+    height: 30px;
+   /* width: 100%; /* make the element strech on the entire page */
+}
+
+.aaa {
+    background-color: rgb(218, 31, 243);
+  /*  position: center;
+    bottom: 0;*/
+    font-size: 10pt;
+    size: 12pt;
+    height: 30px;
+   /* width: 100%; /* make the element strech on the entire page */
+}
+/* Styling all link (a) elements */
+a {
+    float: left;
+    color: rgb(100, 0, 0);
+    padding: 14px; /* add space around the text */text-decoration: none; /* remove the default line of a link */font-size: 17px;
+}
+
